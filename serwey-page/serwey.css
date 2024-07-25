@@ -1,0 +1,62 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://wallpapers.com/images/hd/python-wdgqvwdld10kp7j5.jpg);
+        background-repeat: no-repeat;
+        backface-visibility: visible;
+        background-attachment: fixed;
+        background-size:cover;
+        color:rgb(0, 0, 0);
+    }
+    header
+    {
+        text-align: center;
+        color:white;
+    }
+    main
+    {
+        display:flex;
+    }
+form
+    {
+        box-shadow: 2em;
+        padding: 1em 0em 1em 1em;
+        margin: 1em 0em 1em 10em ;
+        font-size: 30px;
+        background-color:rgba(199, 230, 241, 0.438);
+        border-radius: 20px;
+        display:inline-block;
+        
+    }
+    .form-control
+    {
+    
+        display:block;
+        font-size:21px;
+    }
+    .form-Group
+    {
+        margin:1em
+    }
+    #qualification , #occupation
+    {
+        font-size:20px;
+        border-radius:15px;
+    }
+    label
+    {
+        display: block;
+    }
+    #about{ display: block; margin:0;padding:1em; width: 350px; border-radius: 15px;}
+
+    #submit
+    {
+        background-color: rgba(4, 77, 4, 0.89);
+        display: inline-block; 
+        margin: 2em 0em 2em 12.5em; 
+        padding: 10px; 
+        text-align: center;
+        border-radius: 30px;
+        font-size: x-large;
+    }

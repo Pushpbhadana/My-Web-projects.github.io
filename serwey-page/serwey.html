@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="serwey.css" >
+ </head>
+<body>
+    <header>
+         <h1 id="title">
+             Requirement for Full-stack web developers:
+         </h1>
+         <p>  "Hey there! Please take a moment to fill out the form below."</p>
+    </header>
+    <main>
+        <form method="post" action="https://chellammal.edu.in/wp-content/uploads/2017/12/Screenshot_2016-06-17_09.33.55.jpg" id="survey-form">
+            <div class="form-Group">
+                <label id="name-label" for="name"> 
+                    Name  
+                </label>
+                <input type="text" id="name" required placeholder="Enter Your Name Here" class="form-control"/>
+            </div>
+            <div class="form-Group">
+                <label id="mail-label" for="mail"> 
+                    Email
+                </label>
+                <input type="email" id="mail" required placeholder="Enter Your mail Here" class="form-control"/>
+            </div>
+            <div class="form-Group">
+                <label id="num-label" for="number"> 
+                    Number
+                </label>
+                <input type="tel" id="number" required placeholder="Enter Your Mb.number Here" class="form-control"/>
+            </div>
+            <div class="form-Group">
+                <label id="age-label" for="age"> 
+                    Age 
+                </label>
+                <input type="number" id="age" placeholder="Enter Your Age Here in years 'Optional'" class="form-control"/>
+            </div> 
+            <div class="form-Group">
+                <label for="qualification">
+                    What is Your Highest Qualification:
+                    <select id="qualification" name="qualification" required>
+                        <option vlaue="" disabled="" selected="" >select one</option>
+                        <option vlaule="12">12<sup>th</sup></option>
+                        <option vlaule="B.tech">B.tech</option>
+                        <option vlaule="bsc">Bachelor in Computer Science</option>
+                        <option vlaule="other">Other</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-Group">
+                <label for="occupation">
+                    What is your current occupation?
+                    <select id="occupation" name="occupation" required>
+                        Enter Your Current Occupation 
+                        <option vlaue="" disabled="" selected="" >select one</option>
+                        <option value="student">Student</option>
+                        <option value="fresher">Fresher </option>
+                        <option value="part-time">Part-Time worker </option>
+                        <option value="job"> Working in Full time job </option>
+                        <option value="other"> Other </option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-Group" id="lang">
+                <label for="lang">
+                    Which programming language you have experienced in:
+                </label>
+                <input type="checkbox" name="lang" id="Html"/>Html<br>
+                <input type="checkbox" name="lang" id="css"/>Css<br>
+                <input type="checkbox" id="js" name="lang"/>Java-script<br>
+                <input type="checkbox" id="py" name="lang"/>Python<br>
+                <input type="checkbox"  name="lang" id="nodejs"/>Node.js<br>
+                <input type="checkbox"  name="lang" id="bost"/>Bostrap<br>
+                <input type="checkbox"  name="lang" id="other"/>Other<br>
+            </div>
+        </div>
+        <div class="form-Group">
+            <p>Work-Experince:</p>
+            <label for="exp0">
+                <input  type ="radio" name="worked" id="exp0" checked/>
+                None   
+            </label>
+            <label for="exp1">
+                <input  type ="radio" name="worked" id="exp1" />
+                0-6 Months
+            </label>
+            <label for="exp2">
+                <input  type ="radio" name="worked" id="exp2" />
+                01-02 Years
+            </label>
+            <label for="exp3">
+                <input  type ="radio" name="worked" id="exp3" />
+                More then 3 Years
+            </label>
+        </div>
+        <div class="form-Group">
+            <label for="about">
+                Give a brief intro about Yourself:
+                <textarea id="about" name="about" placeholder="About"></textarea>
+            </label>
+        </div>
+        <div class="form-Group" >
+            <input type="submit" value="Submit" id="submit"/>
+        </div>
+        </form>
+    </main>
+</body>
+</html>
