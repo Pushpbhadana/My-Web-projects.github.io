@@ -7,7 +7,7 @@ h1
 p
 {
     font-size: 30px;
-    margin:20px auto;
+    margin:20px;
 }
 body
 {
@@ -16,12 +16,14 @@ body
     background-image: url(https://wallpapercave.com/wp/ziADDLi.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size:cover;
+    background-size:contain;
+    background-color: black;
     
 }
 ul
 {
-    font-size: 30px;
+    font-size: 25px;
+    display: block;
 }
 li
 {
@@ -32,3 +34,4 @@ a:visited
     color:aqua;
 }
 a:hover{color:red;}
+.item:hover {transform: scale(1.2);}
