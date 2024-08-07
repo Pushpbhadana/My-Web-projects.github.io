@@ -52,11 +52,11 @@ h1{font-size: 25px; text-align: center; font-weight:lighter;  color: yellow;}
 
 #phone, #elecrtonics, #earphone, #led{margin:0px 15px;}
 
-#washing, #freeg, #laptop, #vacume{margin: 0px 2px;}
+#washing, #freeg, #laptop, #vacume{margin: 0px 1px;}
 
 #search-box{width:300px;}
 .nav-link
 {
     margin:0em 1em;
 }
-#m{height:120px}
+#m{height:100%;width:200px;}
