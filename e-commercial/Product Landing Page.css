@@ -10,12 +10,13 @@ body
     font-family: sans-serif;
 }
 img:hover{transform: scale(1.02);}
-img{height:200px;  border-radius: 20px;}
+.img{height:200px;  border-radius: 20px;}
 
-.try{display: inline-block; padding-left: 0.1px;}
+.try{display: inline-block; padding-left: 0.2px;}
 
 header
 {
+    text-align: center;
     margin:auto; 
     background-color: rgb(255, 128, 0);
     color: chocolate; 
@@ -50,13 +51,12 @@ a:visited{color:white;} a:hover{color:rgb(30, 32, 32);}
 
 h1{font-size: 25px; text-align: center; font-weight:lighter;  color: yellow;}
 
-#phone, #elecrtonics, #earphone, #led{margin:0px 15px;}
 
-#washing, #freeg, #laptop, #vacume{margin: 0px 2px;}
 
 #search-box{width:300px;}
 .nav-link
 {
     margin:0em 1em;
 }
-#m{height:120px}
+
+#header-img{width: 300px; border-radius: 10px;}
